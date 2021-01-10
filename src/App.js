@@ -9,6 +9,9 @@ function App() {
         <p>
           This web app will be Jamie's port folio
         </p>
+        <p>
+          Just try to add this paragraph
+        </p>
         <a
           className="App-link"
           href="https://reactjs.org"
