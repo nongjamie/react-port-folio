@@ -1,26 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This web app will be Jamie's port folio
-        </p>
-        <p>
-          Just try to add this paragraph
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='bg-red-200 h-screen flex justify-center items-center'>
+      <p className='text-3xl font-bold'>Welcome to Jamie's portfolio</p>
     </div>
   );
 }
