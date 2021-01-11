@@ -4,8 +4,8 @@ class Contact extends Component {
 
   render() {
     return (
-      <div>
-        Contact page
+      <div className='text-center'>
+        Contact page. Coming soon ...
       </div>
     )
   }

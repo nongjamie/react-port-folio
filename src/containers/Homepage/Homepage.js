@@ -61,7 +61,7 @@ class Homepage extends Component {
             {data.map(item => {
               return (
                 <div className='text-center w-1/3 lg:w-1/4 my-3'>
-                  <img src={item.imgUrl} className='w-24 h-24 mb-1 rounded mx-auto'/>
+                  <img src={item.imgUrl} className='w-16 lg:w-24 h-16 lg:h-24 mb-1 rounded mx-auto'/>
                   <span className='text-sm'>{item.name}</span>
                 </div>
               )
@@ -87,7 +87,7 @@ class Homepage extends Component {
             {data.map(item => {
               return (
                 <div className='text-center w-1/3 my-3'>
-                  <img src={item.imgUrl} className='w-24 h-24 mb-1 rounded mx-auto'/>
+                  <img src={item.imgUrl} className='w-16 lg:w-24 h-16 lg:h-24 mb-1 rounded mx-auto'/>
                   <span className='text-sm'>{item.name}</span>
                 </div>
               )
@@ -113,7 +113,7 @@ class Homepage extends Component {
             {data.map(item => {
               return (
                 <div className='text-center w-1/3 my-3'>
-                  <img src={item.imgUrl} className='w-24 h-24 mb-1 rounded mx-auto'/>
+                  <img src={item.imgUrl} className='w-16 lg:w-24 h-16 lg:h-24 mb-1 rounded mx-auto'/>
                   <span className='text-sm'>{item.name}</span>
                 </div>
               )
@@ -139,7 +139,7 @@ class Homepage extends Component {
             {data.map(item => {
               return (
                 <div className='text-center w-1/3 lg:w-1/4 my-3'>
-                  <img src={item.imgUrl} className='w-24 h-24 mb-1 rounded mx-auto'/>
+                  <img src={item.imgUrl} className='w-16 lg:w-24 h-16 lg:h-24 mb-1 rounded mx-auto'/>
                   <span className='text-sm'>{item.name}</span>
                 </div>
               )
@@ -176,7 +176,7 @@ class Homepage extends Component {
             {data.map(item => {
               return (
                 <div className='text-center w-1/3 lg:w-1/4 my-3'>
-                  <img src={item.imgUrl} className='w-24 h-24 mb-1 rounded mx-auto'/>
+                  <img src={item.imgUrl} className='w-16 lg:w-24 h-16 lg:h-24 mb-1 rounded mx-auto'/>
                   <span className='text-sm'>{item.name}</span>
                 </div>
               )

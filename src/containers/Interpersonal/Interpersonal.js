@@ -4,8 +4,8 @@ class Homepage extends Component {
 
   render() {
     return (
-      <div>
-        Interpersonal page
+      <div className='text-center'>
+        Interpersonal page. Coming soon ...
       </div>
     )
   }

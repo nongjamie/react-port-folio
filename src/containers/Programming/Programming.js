@@ -4,8 +4,8 @@ class Homepage extends Component {
 
   render() {
     return (
-      <div>
-        Programming page
+      <div className='text-center'>
+        Programming page. Coming soon ...
       </div>
     )
   }
