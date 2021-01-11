@@ -1,28 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch, Redirect } from 'react-router-dom'
+
+import Homepage from './containers/Homepage/Homepage'
+import Interpersonal from './containers/Interpersonal/Interpersonal'
+import Programming from './containers/Programming/Programming'
+import Contact from './containers/Contact/Contact'
+import Layout from './hoc/Layout/Layout'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          This web app will be Jamie's port folio
-        </p>
-        <p>
-          Just try to add this paragraph
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Layout>
+      <div className='App'>
+        <Switch>
+          <Route path='/interpersonal' component={Interpersonal} />
+          <Route path='/programming' component={Programming} />
+          <Route path='/contact' exact component={Contact} />
+          <Route path='/' exact component={Homepage} />
+          <Redirect to='/' />
+        </Switch>
+      </div>
+    </Layout>
+  )
 }
 
-export default App;
+export default App

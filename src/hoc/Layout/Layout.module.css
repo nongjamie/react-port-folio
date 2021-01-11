@@ -1,0 +1,17 @@
+.menu {
+  padding: 10px 20px;
+}
+
+.menu:hover {
+  cursor: pointer;
+  opacity: 0.6;
+} 
+
+.footer {
+  padding: 10px 0px;
+}
+
+.footer:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
