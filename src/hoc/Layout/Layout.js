@@ -46,7 +46,7 @@ class Layout extends Component {
         <div>
           {this.headerSection()}
         </div>
-        <div>
+        <div className='px-12'>
           {this.props.children}
         </div>
         <div>
