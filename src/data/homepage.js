@@ -94,7 +94,7 @@ export default {
     },
     {
       name: 'Trello', 
-      imgUrl: 'https://qph.fs.quoracdn.net/main-qimg-28cadbd02699c25a88e5c78d73c7babc'
+      imgUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOQrxD_6xtPLkdv7LSPcfUqHuUv7AzrWUl6g&usqp=CAU'
     },
     {
       name: 'Asana', 
